@@ -17,7 +17,7 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello() {
-        String hello = "救命 谁能救一下我";
+        String hello = "救命 谁能救一下我 啊啊啊啊";
         return hello;
     }
 }
