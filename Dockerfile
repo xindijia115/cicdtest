@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-java:jdk11-slim
+FROM openjdk:11-jdk
 
 ENV TZ=Asia/Shanghai
 
