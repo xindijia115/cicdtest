@@ -18,6 +18,9 @@ public class HelloController {
     @GetMapping("/hello")
     public String hello() {
         String hello = "救命 谁能救一下我 啊啊啊啊";
-        return hello;
+        int a = 1;
+        int b = 2;
+        int sum = a + b;
+        return hello + sum;
     }
 }
