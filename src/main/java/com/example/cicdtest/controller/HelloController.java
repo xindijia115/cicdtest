@@ -21,6 +21,7 @@ public class HelloController {
         int a = 1;
         int b = 2;
         int sum = a + b;
-        return hello + sum;
+        String c = "你怎么还不出来";
+        return hello + sum + c;
     }
 }
