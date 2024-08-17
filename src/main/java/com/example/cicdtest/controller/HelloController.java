@@ -17,7 +17,7 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello() {
-        String hello = "这次可以了吗 终于可以了";
+        String hello = "http://www.xdj666.top";
         return hello;
     }
 }
